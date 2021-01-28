@@ -48,7 +48,7 @@ async function main() {
     let hint, password;
     if ("h" in params) {
       hint = params["h"];
-      password = prompt(`Bitte gib das Passwort ein, um die Website zu öffnen.\n\nHint/ Tipp: ${hint}`);
+      password = prompt(`Bitte gib das Passwort ein, um die Website zu öffnen.\n\nHint: ${hint}`);
     } else {
       password = prompt("Bitte gib das Passwort ein, um die Website zu öffnen.");
     }
